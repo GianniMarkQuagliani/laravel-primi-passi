@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    $stampaParagrafo = true;
+    return view('about', compact('stampaParagrafo'));
 });
 

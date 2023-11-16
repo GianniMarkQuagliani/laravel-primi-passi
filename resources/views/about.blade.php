@@ -61,6 +61,17 @@
             </ul>
         </nav>
     </header>
+    <main>
+        @if ($stampaParagrafo)
+            <p>
+                This is the About page.
+            </p>
+        @else
+            <p>
+                Nessun paragrafo da stampare
+            </p>
+        @endif
+    </main>
 </body>
 
 </html>
